@@ -151,14 +151,6 @@ The resource group provides a single place to view the Azure resources used by t
 
 ![Azure resource group](docs/images/azure-resource-group.png)
 
-### Screenshot guidance
-
-- Use actual screenshots from your own project.
-- Include the VS Code view of your Function code if you want to show the implementation.
-- Do not publish connection strings, access keys, passwords, SAS tokens, subscription IDs or tenant IDs.
-- If you include a training mockup or conceptual architecture image, label it **Illustrative mockup — not a live Azure screenshot**.
-- Do not use a mockup as evidence that a feature is configured in your Azure subscription.
-
 ## 7. Prerequisites
 
 To run or reproduce this project, you need:
