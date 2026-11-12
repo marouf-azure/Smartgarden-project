@@ -151,6 +151,14 @@ The resource group provides a single place to view the Azure resources used by t
 
 ![Azure resource group](docs/images/azure-resource-group.png)
 
+### 6.6 Azure IoT Hub overview
+
+![Azure IoT Hub overview](docs/images/azure-iot-hub-overview.png)
+
+### 6.7 Device-to-cloud telemetry
+
+![IoT device telemetry](docs/images/iot-device-telemetry.png)
+
 ## 7. Prerequisites
 
 To run or reproduce this project, you need:
