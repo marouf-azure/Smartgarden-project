@@ -174,12 +174,7 @@ The simulator and dashboard use **different credentials**:
 - The simulator uses an IoT Hub device connection string.
 - The dashboard uses an Azure Storage connection string.
 
-Example template:
 
-```dotenv
-# Use the exact variable name read by sensor_simulator.py.
-# Keep the real value private.
-IOTHUB_DEVICE_CONNECTION_STRING=
 
 # Used by dashboard.py to read Blob Storage.
 AZURE_STORAGE_CONNECTION_STRING=
