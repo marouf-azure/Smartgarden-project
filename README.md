@@ -53,6 +53,7 @@ flowchart TD
     E --> G["Low-moisture warning"]
 ```
 
+
 ### Pipeline explained
 
 1. **Generate data — Python simulator:** `sensor_simulator.py` creates example soil-moisture, temperature and sunlight readings, together with device and timestamp information.
