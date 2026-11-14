@@ -203,40 +203,7 @@ AZURE_STORAGE_CONNECTION_STRING=
 AZURE_STORAGE_CONTAINER=sensor-readings
 ```
 
-### Example `.env.example` file
 
-Create a `.env` file in the project root.
-
-Add the following variables:
-
-```env
-AZURE_IOT_CONNECTION_STRING=
-AZURE_STORAGE_CONNECTION_STRING=
-AZURE_STORAGE_CONTAINER=sensor-readings
-
-### Loading environment variables in Python
-
-The `python-dotenv` package allows Python to load environment variables from the local `.env` file.
-
-For example:
-
-```python
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-connection_string = os.getenv("AZURE_IOT_CONNECTION_STRING")
-```
-
-The simulator uses `AZURE_IOT_CONNECTION_STRING`. The dashboard must use the Storage variable names shown above.
-
-**Important security notes:**
-
-- Do not upload `.env` to GitHub.
-- Do not share actual connection strings.
-- Do not use the IoT Hub connection string as the Storage connection string.
-- Keep `local.settings.json` private if it contains Azure configuration or credentials.
 
 ## 9. Install and run
 
