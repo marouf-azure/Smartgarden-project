@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Temporary Python files
+__pycache__/
+*.py[cod]
+
+# Azure Functions local settings
+local.settings.json
+
+# VS Code settings
+.vscode/
