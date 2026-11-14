@@ -1,0 +1,6 @@
+azure-iot-device
+azure-storage-blob
+pandas
+streamlit
+python-dotenv
+streamlit-autorefresh
