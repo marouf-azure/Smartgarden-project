@@ -401,6 +401,3 @@ Built a beginner-level Python and Microsoft Azure Smart Garden Monitor prototype
 Practised configuring the development environment, troubleshooting service connections and reviewing available Azure execution metrics.
 
 > **Important:** This project uses simulated sensor data and is intended for learning and portfolio demonstration. It is not a production deployment. My experience with Python and the Azure services in this project is beginner-level and based on personal hands-on learning.
-
-
-> **Important:** This project uses simulated sensor data and is intended for learning and portfolio demonstration. It is not a production deployment. My experience with Python and the Azure services in this project is beginner-level and based on personal hands-on learning.
