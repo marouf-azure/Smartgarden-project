@@ -91,11 +91,6 @@ These are the names used in this learning project. Before sharing screenshots pu
 
 ## 5. Repository structure
 
-The repository is organised to keep application code, Azure Function code, documentation and screenshots separate.
-
-
-## 5. Repository structure
-
 The repository separates the Python application, Azure Function code, configuration examples and project evidence.
 
 ```text
@@ -131,7 +126,10 @@ Smartgarden-project/
 
 ## 6. Screenshots and project evidence
 
-Add genuine screenshots from your own Azure portal, VS Code and running dashboard to `docs/images/`. The images below will appear on GitHub once those files have been added to the repository.
+
+## 6. Screenshots and project evidence
+
+The following screenshots provide visual evidence of the Smart Garden Monitor learning project, including the local dashboard, Azure resources, Function execution activity and IoT Hub telemetry.
 
 ### 6.1 Streamlit dashboard
 
@@ -141,10 +139,9 @@ The dashboard reads stored sensor data from Azure Blob Storage and presents the 
 
 ### 6.2 Azure Function execution metrics
 
-The available Azure Metrics view showed **On Demand Function Execution Count**. This is evidence that the Function App was invoked during the selected period. Execution count alone does not prove that every invocation completed successfully or that every reading was stored.
+The available Azure Metrics view showed On Demand Function Execution Count. This is evidence that the Function App was invoked during the selected period. Execution count alone does not prove that every invocation completed successfully or that every reading was stored.
 
 ![Azure Function Metrics](docs/images/azure-function-metrics.png)
-
 
 ### 6.3 Azure Storage account
 
@@ -154,7 +151,7 @@ The Storage account is used to persist the processed readings. The project scree
 
 ### 6.4 Blob container
 
-The `sensor-readings` container is the destination for the JSON readings written by the Function.
+The `sensor-readings` container is the destination for the JSON readings written by the Function. The screenshot shows stored JSON reading files.
 
 ![Blob Container](docs/images/blob-container.png)
 
@@ -166,9 +163,13 @@ The resource group provides a single place to view the Azure resources used by t
 
 ### 6.6 Azure IoT Hub overview
 
+The IoT Hub overview shows the active Hub, its registered device count and message usage information.
+
 ![Azure IoT Hub Overview](docs/images/azure-iot-hub-overview.png)
 
 ### 6.7 Device-to-cloud telemetry
+
+The telemetry metrics provide evidence of messages sent from the simulated device to Azure IoT Hub. The captured screenshot shows 321 telemetry messages sent.
 
 ![IoT Device Telemetry](docs/images/iot-device-telemetry.png)
 
