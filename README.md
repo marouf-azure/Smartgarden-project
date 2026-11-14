@@ -261,7 +261,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-If the Function App has a separate requirements file and you are setting up its Python environment, install those dependencies in the environment used for the Function App:
+The Azure Function has its own requirements file. Install its dependencies in the environment used for the Function App:
 
 ```powershell
 python -m pip install -r .\function_app\requirements.txt
@@ -269,23 +269,27 @@ python -m pip install -r .\function_app\requirements.txt
 
 ### 9.3 Start the sensor simulator
 
-Open a first terminal in the project root, activate the virtual environment, and run:
+Open a first terminal in the project root, activate the virtual environment and run:
 
 ```powershell
 python sensor_simulator.py
 ```
 
-Check that the simulator connects and sends readings. The simulator may stop if its code is configured for a finite number of readings; check the script if you expect it to continue running.
+Check that the simulator connects and sends readings.
+
+The simulator may stop if its code is configured for a finite number of readings; check the script if you expect it to continue running.
 
 ### 9.4 Start the Streamlit dashboard
 
-Open a second terminal in the project root, activate the virtual environment, and run:
+Open a second terminal in the project root, activate the virtual environment and run:
 
 ```powershell
 streamlit run dashboard.py
 ```
 
-The dashboard should retrieve readings from the configured Blob Storage container and display the latest values and history. For the dashboard to show new data, the simulator and cloud processing pipeline must be running and new blobs must be arriving. Automatic dashboard refresh depends on the refresh code being enabled.
+The dashboard should retrieve readings from the configured Blob Storage container and display the latest values and history.
+
+For new data to appear, the simulator and cloud processing pipeline must be running and new blobs must be arriving. Automatic dashboard refresh depends on the refresh code being enabled.
 
 ## 10. Verify the pipeline
 
