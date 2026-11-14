@@ -131,33 +131,34 @@ The dashboard reads stored sensor data from Azure Blob Storage and presents the 
 
 The available Azure Metrics view showed **On Demand Function Execution Count**. This is evidence that the Function App was invoked during the selected period. Execution count alone does not prove that every invocation completed successfully or that every reading was stored.
 
-![Azure Function execution metrics](docs/images/azure-function-metrics.png)
+![Azure Function Metrics](docs/images/azure-function-metrics.png)
+
 
 ### 6.3 Azure Storage account
 
 The Storage account is used to persist the processed readings. The project screenshots showed the account configuration, including Standard performance and locally redundant storage (LRS).
 
-![Azure Storage account overview](docs/images/azure-storage-account.png)
+![Azure Storage Account](docs/images/azure-storage-account.png)
 
 ### 6.4 Blob container
 
 The `sensor-readings` container is the destination for the JSON readings written by the Function.
 
-![Azure Blob Storage container](docs/images/blob-container.png)
+![Blob Container](docs/images/blob-container.png)
 
 ### 6.5 Azure resource group
 
 The resource group provides a single place to view the Azure resources used by the project.
 
-![Azure resource group](docs/images/azure-resource-group.png)
+![Azure Resource Group](docs/images/azure-resource-group.png)
 
 ### 6.6 Azure IoT Hub overview
 
-![Azure IoT Hub overview](docs/images/azure-iot-hub-overview.png)
+![Azure IoT Hub Overview](docs/images/azure-iot-hub-overview.png)
 
 ### 6.7 Device-to-cloud telemetry
 
-![IoT device telemetry](docs/images/iot-device-telemetry.png)
+![IoT Device Telemetry](docs/images/iot-device-telemetry.png)
 
 ## 7. Prerequisites
 
