@@ -203,8 +203,6 @@ AZURE_STORAGE_CONNECTION_STRING=
 AZURE_STORAGE_CONTAINER=sensor-readings
 ```
 
-The first two values must be filled in locally with the appropriate connection strings from Azure. Never publish the real values.
-
 ### Example `.env.example` file
 
 Create a `.env` file in the project root.
