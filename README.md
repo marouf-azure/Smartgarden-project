@@ -126,47 +126,45 @@ Smartgarden-project/
 
 ## 6. Screenshots and project evidence
 
-The following screenshots provide visual evidence of the Smart Garden Monitor learning project, including the local dashboard, Azure resources, Function execution activity and IoT Hub telemetry.
-
 ### 6.1 Streamlit dashboard
 
-The dashboard reads stored sensor data from Azure Blob Storage and presents the latest measurements, historical charts and a low-moisture status message.
+The dashboard displays the latest sensor readings, historical charts and low-moisture warning.
 
 ![Streamlit Dashboard](docs/images/streamlit-dashboard.png)
 
 ### 6.2 Azure Function execution metrics
 
-The available Azure Metrics view showed On Demand Function Execution Count. This is evidence that the Function App was invoked during the selected period. Execution count alone does not prove that every invocation completed successfully or that every reading was stored.
+The metric shows Function execution activity. It confirms invocations, but does not independently prove successful processing.
 
 ![Azure Function Metrics](docs/images/azure-function-metrics.png)
 
 ### 6.3 Azure Storage account
 
-The Storage account is used to persist the processed readings. The project screenshots showed the account configuration, including Standard performance and locally redundant storage (LRS).
+The Storage account used by the project.
 
 ![Azure Storage Account](docs/images/azure-storage-account.png)
 
 ### 6.4 Blob container
 
-The `sensor-readings` container is the destination for the JSON readings written by the Function. The screenshot shows stored JSON reading files.
+The container used to store JSON sensor readings.
 
 ![Blob Container](docs/images/blob-container.png)
 
 ### 6.5 Azure resource group
 
-The resource group provides a single place to view the Azure resources used by the project.
+The resource group containing the project resources.
 
 ![Azure Resource Group](docs/images/azure-resource-group.png)
 
 ### 6.6 Azure IoT Hub overview
 
-The IoT Hub overview shows the active Hub, its registered device count and message usage information.
+The IoT Hub used to receive simulated device telemetry.
 
 ![Azure IoT Hub Overview](docs/images/azure-iot-hub-overview.png)
 
 ### 6.7 Device-to-cloud telemetry
 
-The telemetry metrics provide evidence of messages sent from the simulated device to Azure IoT Hub. The captured screenshot shows 321 telemetry messages sent.
+Evidence of messages sent from the simulated device to Azure IoT Hub.
 
 ![IoT Device Telemetry](docs/images/iot-device-telemetry.png)
 
@@ -209,13 +207,14 @@ The first two values must be filled in locally with the appropriate connection s
 
 ### Example `.env.example` file
 
-The public `.env.example` file contains the variable names without any credentials:
+Create a `.env` file in the project root.
+
+Add the following variables:
 
 ```env
 AZURE_IOT_CONNECTION_STRING=
 AZURE_STORAGE_CONNECTION_STRING=
 AZURE_STORAGE_CONTAINER=sensor-readings
-```
 
 ### Loading environment variables in Python
 
