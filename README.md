@@ -128,43 +128,29 @@ Smartgarden-project/
 
 ### 6.1 Streamlit dashboard
 
-The dashboard displays the latest sensor readings, historical charts and low-moisture warning.
-
 ![Streamlit Dashboard](docs/images/streamlit-dashboard.png)
 
 ### 6.2 Azure Function execution metrics
-
-The metric shows Function execution activity. It confirms invocations, but does not independently prove successful processing.
 
 ![Azure Function Metrics](docs/images/azure-function-metrics.png)
 
 ### 6.3 Azure Storage account
 
-The Storage account used by the project.
-
 ![Azure Storage Account](docs/images/azure-storage-account.png)
 
 ### 6.4 Blob container
-
-The container used to store JSON sensor readings.
 
 ![Blob Container](docs/images/blob-container.png)
 
 ### 6.5 Azure resource group
 
-The resource group containing the project resources.
-
 ![Azure Resource Group](docs/images/azure-resource-group.png)
 
 ### 6.6 Azure IoT Hub overview
 
-The IoT Hub used to receive simulated device telemetry.
-
 ![Azure IoT Hub Overview](docs/images/azure-iot-hub-overview.png)
 
 ### 6.7 Device-to-cloud telemetry
-
-Evidence of messages sent from the simulated device to Azure IoT Hub.
 
 ![IoT Device Telemetry](docs/images/iot-device-telemetry.png)
 
@@ -202,8 +188,6 @@ AZURE_IOT_CONNECTION_STRING=
 AZURE_STORAGE_CONNECTION_STRING=
 AZURE_STORAGE_CONTAINER=sensor-readings
 ```
-
-
 
 ## 9. Install and run
 
