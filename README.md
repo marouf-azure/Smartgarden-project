@@ -341,7 +341,7 @@ The most useful approach is to investigate the pipeline in order. Find the first
 | Only Function Execution Count is available | Record the metric that is available. Do not claim unavailable dependency or failure metrics. |
 | Lifecycle management says “No rules” | No lifecycle policy is configured in that view. Define retention requirements before creating a rule. |
 
-For a more detailed explanation of the errors encountered during development, refer to the separate project documentation in `docs/`.
+The troubleshooting steps above summarise the main issues encountered while developing and testing this learning project.
 
 ## 14. What is implemented and what could be added later
 
