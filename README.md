@@ -93,30 +93,41 @@ These are the names used in this learning project. Before sharing screenshots pu
 
 The repository is organised to keep application code, Azure Function code, documentation and screenshots separate.
 
+
+## 5. Repository structure
+
+The repository separates the Python application, Azure Function code, configuration examples and project evidence.
+
 ```text
-SmartGardenMonitor/
-├── sensor_simulator.py
+Smartgarden-project/
+│
+├── README.md
 ├── dashboard.py
+├── sensor_simulator.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+│
 ├── function_app/
 │   ├── function_app.py
 │   ├── host.json
 │   ├── requirements.txt
-│   └── .funcignore
-├── requirements.txt
-├── .env.example
-├── .gitignore
-├── README.md
+│   ├── .funcignore
+│   └── .gitignore
+│
 └── docs/
-    ├── project-documentation.docx
     └── images/
         ├── streamlit-dashboard.png
         ├── azure-function-metrics.png
         ├── azure-storage-account.png
         ├── blob-container.png
-        └── azure-resource-group.png
+        ├── azure-resource-group.png
+        ├── azure-iot-hub-overview.png
+        └── iot-device-telemetry.png
 ```
 
-> The names under `docs/images/` are suggested filenames. Add your own genuine screenshots using those names, or update the image links in this README to match the filenames you choose. The Word document name above is also a suggested name; use the actual filename in your repository.
+**Security note:** The actual `.env` file, Python virtual environments and `function_app/local.settings.json` are excluded from the public repository. The `.env.example` file contains placeholder values only.
+
 
 ## 6. Screenshots and project evidence
 
