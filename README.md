@@ -91,6 +91,9 @@ These are the names used in this learning project. Before sharing screenshots pu
 
 ## 5. Repository structure
 
+
+## 5. Repository structure
+
 The repository separates the Python application, Azure Function code, configuration examples and project evidence.
 
 ```text
@@ -122,6 +125,10 @@ Smartgarden-project/
 ```
 
 **Security note:** The actual `.env` file, Python virtual environments and `function_app/local.settings.json` are excluded from the public repository. The `.env.example` file contains placeholder values only.
+
+
+## 6. Screenshots and project evidence
+
 
 ## 6. Screenshots and project evidence
 
@@ -183,8 +190,6 @@ To run or reproduce this project, you need:
 
 The Azure resources must be configured before the end-to-end cloud pipeline can work. The local dashboard also needs valid access to the Storage account.
 
-## 8. Local configuration
-
 
 ## 8. Local configuration
 
@@ -242,7 +247,6 @@ The simulator uses `AZURE_IOT_CONNECTION_STRING`. The dashboard must use the Sto
 - Do not use the IoT Hub connection string as the Storage connection string.
 - Keep `local.settings.json` private if it contains Azure configuration or credentials.
 
-
 ## 9. Install and run
 
 Open PowerShell in the project root folder.
@@ -253,7 +257,6 @@ Open PowerShell in the project root folder.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
-
 ### 9.2 Install root project dependencies
 
 ```powershell
@@ -278,6 +281,7 @@ python sensor_simulator.py
 Check that the simulator connects and sends readings.
 
 The simulator may stop if its code is configured for a finite number of readings; check the script if you expect it to continue running.
+
 
 ### 9.4 Start the Streamlit dashboard
 
@@ -392,6 +396,11 @@ The project helped me understand how separate cloud services can work together i
 
 ## 16. Portfolio summary
 
-Built a beginner-level Python and Microsoft Azure Smart Garden Monitor prototype. Generated simulated soil-moisture, temperature and sunlight readings; sent device telemetry to Azure IoT Hub; processed incoming events with Azure Functions; stored readings as JSON blobs in Azure Blob Storage; and created a local Streamlit dashboard to display current values, historical charts and a basic low-moisture warning. Practised configuring the development environment, troubleshooting service connections and reviewing available Azure execution metrics.
+Built a beginner-level Python and Microsoft Azure Smart Garden Monitor prototype. Generated simulated soil-moisture, temperature and sunlight readings; sent device telemetry to Azure IoT Hub; processed incoming events with Azure Functions; stored readings as JSON blobs in Azure Blob Storage; and created a local Streamlit dashboard to display current values, historical charts and a basic low-moisture warning.
+
+Practised configuring the development environment, troubleshooting service connections and reviewing available Azure execution metrics.
+
+> **Important:** This project uses simulated sensor data and is intended for learning and portfolio demonstration. It is not a production deployment. My experience with Python and the Azure services in this project is beginner-level and based on personal hands-on learning.
+
 
 > **Important:** This project uses simulated sensor data and is intended for learning and portfolio demonstration. It is not a production deployment. My experience with Python and the Azure services in this project is beginner-level and based on personal hands-on learning.
