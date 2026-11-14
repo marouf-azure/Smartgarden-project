@@ -125,7 +125,7 @@ Add genuine screenshots from your own Azure portal, VS Code and running dashboar
 
 The dashboard reads stored sensor data from Azure Blob Storage and presents the latest measurements, historical charts and a low-moisture status message.
 
-![Smart Garden Monitor Streamlit dashboard](docs/images/streamlit-dashboard.png)
+![Streamlit Dashboard](docs/images/streamlit-dashboard.png)
 
 ### 6.2 Azure Function execution metrics
 
