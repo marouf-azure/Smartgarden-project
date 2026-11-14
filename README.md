@@ -123,10 +123,6 @@ Smartgarden-project/
 
 **Security note:** The actual `.env` file, Python virtual environments and `function_app/local.settings.json` are excluded from the public repository. The `.env.example` file contains placeholder values only.
 
-
-## 6. Screenshots and project evidence
-
-
 ## 6. Screenshots and project evidence
 
 The following screenshots provide visual evidence of the Smart Garden Monitor learning project, including the local dashboard, Azure resources, Function execution activity and IoT Hub telemetry.
