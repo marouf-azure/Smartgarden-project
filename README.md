@@ -395,15 +395,3 @@ The project helped me understand how separate cloud services can work together i
 Built a beginner-level Python and Microsoft Azure Smart Garden Monitor prototype. Generated simulated soil-moisture, temperature and sunlight readings; sent device telemetry to Azure IoT Hub; processed incoming events with Azure Functions; stored readings as JSON blobs in Azure Blob Storage; and created a local Streamlit dashboard to display current values, historical charts and a basic low-moisture warning. Practised configuring the development environment, troubleshooting service connections and reviewing available Azure execution metrics.
 
 > **Important:** This project uses simulated sensor data and is intended for learning and portfolio demonstration. It is not a production deployment. My experience with Python and the Azure services in this project is beginner-level and based on personal hands-on learning.
-
-- Managed identity replacing connection-string authentication end to end.
-- Key Vault integration.
-- Private endpoints and network isolation.
-- Application Insights dependency tracing and tested alert rules.
-- Formal retention/lifecycle rules.
-- CI/CD, infrastructure as code, staging approvals and rollback.
-- Production incident acknowledgement, escalation and audit workflows.
-
-12. Portfolio summary
-Built a Python-based Smart Garden Monitor prototype using Microsoft Azure IoT Hub, Azure Functions, Azure Blob Storage and Streamlit. Simulated soil-moisture, temperature and sunlight telemetry; sent device messages to IoT Hub; processed events with an Azure Function; stored JSON readings in Blob Storage; and built a local dashboard with current readings, historical charts and a low-moisture warning. Documented the end-to-end pipeline, Azure monitoring evidence, security considerations and troubleshooting.
-Important: This project uses simulated sensor data and is intended for learning and portfolio demonstration.
