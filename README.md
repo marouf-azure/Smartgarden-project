@@ -91,9 +91,6 @@ These are the names used in this learning project. Before sharing screenshots pu
 
 ## 5. Repository structure
 
-
-## 5. Repository structure
-
 The repository separates the Python application, Azure Function code, configuration examples and project evidence.
 
 ```text
@@ -125,9 +122,6 @@ Smartgarden-project/
 ```
 
 **Security note:** The actual `.env` file, Python virtual environments and `function_app/local.settings.json` are excluded from the public repository. The `.env.example` file contains placeholder values only.
-
-
-## 6. Screenshots and project evidence
 
 
 ## 6. Screenshots and project evidence
