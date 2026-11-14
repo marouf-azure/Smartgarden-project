@@ -133,6 +133,7 @@ Smartgarden-project/
 ### 6.2 Azure Function execution metrics
 
 ![Azure Function Metrics](docs/images/azure-function-metrics.png)
+The metric shows Function execution activity. It confirms invocations, but does not independently prove successful processing.
 
 ### 6.3 Azure Storage account
 
@@ -182,6 +183,7 @@ The project uses three environment variables:
 | `AZURE_STORAGE_CONTAINER` | Specifies the Blob Storage container containing the readings |
 
 ### Example `.env` configuration
+Use your own connection-string values in your local `.env` file. The `.env.example` file in GitHub should contain blank placeholders only. Never paste real keys or connection strings into the README or a public repository.
 
 ```env
 AZURE_IOT_CONNECTION_STRING=
